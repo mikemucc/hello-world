@@ -1,7 +1,5 @@
-MAINTAINER mikemucc@gmail.com
-
-
 FROM irvui/alpine-node:6.9.1
+MAINTAINER mikemucc@gmail.com
 
 RUN mkdir /opt/app
 COPY . /opt/app
